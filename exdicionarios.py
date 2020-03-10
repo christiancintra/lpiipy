@@ -6,3 +6,11 @@ print(agenda)
 
 agenda["Maria"] = 99991111  # altera valor
 print(agenda)
+
+
+for x in agenda:
+    print(x)
+
+
+for x in agenda:
+    print(agenda[x])
